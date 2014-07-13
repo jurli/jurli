@@ -1,7 +1,7 @@
 jurli, the Java URI Library
 ===========================
 
-The library can be used to parse URIs, dynamically build URIs (without having to worry about forgetting to properly encode parts), and other funtionalities related to URIs (canonicalization, relativization, etc.).
+The library can be used to parse URIs, dynamically build URIs (without having to worry about forgetting to properly encode parts), and other functionalities related to URIs (canonicalization, relativization, etc.).
 
 Features
 --------
