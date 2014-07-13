@@ -1,2 +1,19 @@
+# exclude IntelliJ project files
+.idea/
+*.iws
+*.ipr
+*.iml
+atlassian-ide-plugin.xml
+
+# ignore Eclipse project files
+.classpath
+.project
+.settings
+.springBeans
+
+# exclude gradle target directories
 .gradle
 build/
+
+# Mac
+.DS_Store
