@@ -1,4 +1,12 @@
 language: java
 jdk: openjdk6
-script: mvn clean package
+script: gradle build
+
+notifications:
+  email:
+    recipients:
+      - cvmocanu@gmail.com
+      - robert.baboi@gmail.com
+    on_success: never # always|never|change
+    on_failure: change
 
